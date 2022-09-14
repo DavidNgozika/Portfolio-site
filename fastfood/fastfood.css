@@ -4,7 +4,7 @@
 }
 
 html {
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -243,4 +243,11 @@ div.rights {
     div.rights {
         font-size: 100%;
     }
+}
+
+/* just for tests only */
+
+.darkmode {
+    background: #222;
+    color: whitesmoke;
 }
