@@ -99,7 +99,6 @@ div.meals {
     padding: 1rem;
     max-width: 95%;
     margin: 0 auto;
-    border: 1px solid black;
 }
 
 div.meal {
@@ -107,7 +106,7 @@ div.meal {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 85%;
+    max-width: 75%;
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
     margin: 2rem auto;
     border-radius: 8px;
@@ -177,5 +176,55 @@ div.footer-els span {
 }
 
 @media only screen and (min-width: 768px) {
+    div.meal {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 240px;
+        max-width: 80%;
+    }
+
+    div.meal-details {
+        text-align: left;
+    }
+
+    div.meal img {
+        width: 230px;
+        height: inherit;
+        margin-right: 1.2rem;
+        border-radius: 8px 0 8px 0;
+    }
+
     
+    #pizza {
+        width: 160px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    div.meal {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 210px;
+        max-width: 65%;
+    }
+
+    div.meal-details {
+        text-align: left;
+    }
+
+    div.meal img {
+        width: 230px;
+        height: inherit;
+        margin-right: 1.2rem;
+        border-radius: 8px 0 8px 0;
+    }
+
+    
+    /* #pizza {
+        width: 140px;
+    } */
 }
