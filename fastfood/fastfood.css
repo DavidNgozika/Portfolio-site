@@ -197,9 +197,9 @@ div.footer-els span {
     }
 
     
-    #pizza {
+    /* #pizza {
         width: 160px;
-    }
+    } */
 }
 
 @media only screen and (min-width: 992px) {
@@ -223,7 +223,6 @@ div.footer-els span {
         border-radius: 8px 0 8px 0;
     }
 
-    
     /* #pizza {
         width: 140px;
     } */
