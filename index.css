@@ -317,4 +317,8 @@ div.rights {
         max-width: 70%;
         margin: 0 auto;
     }
+
+    div.rights {
+        font-size: 100%;
+    }
 }
