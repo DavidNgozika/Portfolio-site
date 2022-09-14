@@ -41,6 +41,8 @@ div.left-nav {
 
 .nav-search {
     width: 6.5rem;
+    border-radius: 4px;
+    border: none;
 }
 
 div.right-nav {
@@ -57,6 +59,8 @@ div.topnav-items {
     border: 1px solid whitesmoke;
     border-radius: 4px;
     padding: 0.25rem;
+    width: 6.5rem;
+    text-align: center;
 }
 
 div.topnav-items:hover {
@@ -103,7 +107,7 @@ div.meal {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 95%;
+    max-width: 85%;
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
     margin: 2rem auto;
     border-radius: 8px;
@@ -141,3 +145,33 @@ div.footer-els span {
     padding: .2rem;
 }
 
+/* Small devices */
+@media only screen and (min-width: 600px) {
+    div.top-nav {
+        justify-content: space-between;
+    }
+
+    div.left-nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    div.right-nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    div.topnav-items {
+        margin: 0 0.65rem;
+        font-weight: 500;
+    }
+
+    .nav-search {
+        padding: 0.30rem;
+        width: 7.5rem;
+    }
+
+    div.meal {
+        max-width: 65%;
+    }
+}
