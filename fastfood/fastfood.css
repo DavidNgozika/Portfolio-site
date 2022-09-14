@@ -106,7 +106,7 @@ div.meal {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 75%;
+    max-width: 90%;
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
     margin: 2rem auto;
     border-radius: 8px;
@@ -133,15 +133,22 @@ div.meal-details {
 
 div.footer-els {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
     color: whitesmoke;
     background-color: hsl(46, 25%, 38%);
     padding: 1rem;
+    text-align: center;
 }
 
 div.footer-els span {
     padding: .2rem;
+}
+
+div.rights {
+    font-size: 80%;
+    margin-top: 0.65rem;
 }
 
 /* Small devices */
@@ -173,8 +180,13 @@ div.footer-els span {
     div.meal {
         max-width: 65%;
     }
+
+    div.footer-els {
+        flex-direction: column;
+    }
 }
 
+/* Medium devices */
 @media only screen and (min-width: 768px) {
     div.meal {
         display: flex;
@@ -190,10 +202,10 @@ div.footer-els span {
     }
 
     div.meal img {
-        width: 230px;
+        width: 200px;
         height: inherit;
         margin-right: 1.2rem;
-        border-radius: 8px 0 8px 0;
+        border-radius: 8px 0 0 8px;
     }
 
     
@@ -202,6 +214,7 @@ div.footer-els span {
     } */
 }
 
+/* Large devices */
 @media only screen and (min-width: 992px) {
     div.meal {
         display: flex;
@@ -220,7 +233,7 @@ div.footer-els span {
         width: 230px;
         height: inherit;
         margin-right: 1.2rem;
-        border-radius: 8px 0 8px 0;
+        border-radius: 8px 0 0 8px;
     }
 
     /* #pizza {
