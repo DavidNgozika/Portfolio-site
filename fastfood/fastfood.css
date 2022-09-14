@@ -137,7 +137,7 @@ div.footer-els {
     flex-wrap: wrap;
     justify-content: space-evenly;
     color: whitesmoke;
-    background-color: rebeccapurple;
+    background-color: hsl(46, 25%, 38%);
     padding: 1rem;
 }
 
@@ -174,4 +174,8 @@ div.footer-els span {
     div.meal {
         max-width: 65%;
     }
+}
+
+@media only screen and (min-width: 768px) {
+
 }
