@@ -189,6 +189,12 @@ div.rights {
     margin-top: 0.65rem;
 }
 
+footer a {
+    color: powderblue;
+    padding: 0.5rem 0.75rem;
+    text-decoration: none;
+}
+
 /* Small devices */
 @media only screen and (min-width: 600px) {
     ul.nav-links {
@@ -310,7 +316,7 @@ div.rights {
 
     .card img {
         width: 230px;
-        height: inherit;
+        height: 240px;
         margin-right: 1.2rem;
         border-top-left-radius: 8px;
         border-top-right-radius: 0;
