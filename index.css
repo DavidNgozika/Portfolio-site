@@ -180,8 +180,15 @@ ul.nav-links {
     padding: 1rem;
 }
 
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
 .footer-info span {
-    padding: .2rem;
+    padding: 0.5rem .2rem;
 }
 
 div.rights {
@@ -277,10 +284,7 @@ footer a {
         width: 230px;
         height: 240px;
         margin-right: 1.2rem;
-        border-top-left-radius: 8px;
-        border-top-right-radius: 0;
-        border-bottom-left-radius: 8px;
-        border-bottom-right-radius: 0;
+        border-radius: 8px 0 0 8px;
     }
 
     .card-details {
@@ -295,6 +299,10 @@ footer a {
 
     .footer-info {
         flex-direction: column;
+    }
+
+    .footer-links {
+        flex-direction: row;
     }
 }
 
@@ -318,10 +326,6 @@ footer a {
         width: 230px;
         height: 240px;
         margin-right: 1.2rem;
-        border-top-left-radius: 8px;
-        border-top-right-radius: 0;
-        border-bottom-left-radius: 8px;
-        border-bottom-right-radius: 0;
     }
 
     .card-details {
